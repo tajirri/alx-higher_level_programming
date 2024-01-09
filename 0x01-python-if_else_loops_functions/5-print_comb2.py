@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 for num in range(00, 100):
-    print("{:02d}".format(num), end='\n' if num == 99 else ", ")
+    print("{}{}{}".format(i // 10, i % 10, ", "), end='')
+print("{}".format(99))
